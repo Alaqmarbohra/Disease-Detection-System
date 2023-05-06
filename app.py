@@ -559,9 +559,9 @@ if(selected == "Lung Cancer Prediction"):
         GENDER_op=['Male','Female']
         GENDER_sop=st.selectbox('GENDER',GENDER_op)
         if(GENDER_sop=='Male'):
-            GENDER='M'
+            GENDER=1
         else:
-            GENDER='F'
+            GENDER=2
         
     with col2:
         AGE = st.text_input("AGE")
