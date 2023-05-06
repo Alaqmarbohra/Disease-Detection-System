@@ -1,0 +1,1 @@
+streamlit run "C:\Users\91620\OneDrive\Desktop\Project\diseaseSystem\Disease Detection System\Disease Detection System.py"
