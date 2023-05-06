@@ -680,7 +680,7 @@ if(selected == "Lung Cancer Prediction"):
     # creating a button for Prediction
     
     if st.button("Lung Cancer Test Result"):
-        lung_cancer_report = lung_cancer.predict([[GENDER, AGE, SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC_DISEASE, FATIGUE, ALLERGY, WHEEZING, ALCOHOL_CONSUMING, COUGHING, SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN]])
+        lung_cancer_report = lung_cancer.predict([[GENDER, SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC_DISEASE, FATIGUE, ALLERGY, WHEEZING, ALCOHOL_CONSUMING, COUGHING, SHORTNESS_OF_BREATH, SWALLOWING_DIFFICULTY, CHEST_PAIN]])
         
         if (lung_cancer_report[0] == 0):
           lung_cancer_result = "Hurrah! You have no Lung Cancer."
