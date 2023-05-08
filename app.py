@@ -102,7 +102,7 @@ if(selected == "Covid Prediction"):
   
   with col2:
     SoreThroat_op=['Normal','Medium','High']
-    SoreThroat_sop=st.selectbox('BodyPain',SoreThroat_op)
+    SoreThroat_sop=st.selectbox('SoreThroat',SoreThroat_op)
     if(SoreThroat_sop=='Normal'):
       SoreThroat=0
     elif(SoreThroat_sop=='Medium'):
